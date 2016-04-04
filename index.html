@@ -10,12 +10,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
-    <div>
-      <header>
+    <div class="wrapper">
+      <header class="header">
         <h1>The Code Review</h1>
       </header>
-    </div>
-    <div>
+
       <h2>Signup for our newsletter</h2>
       <h3>Get the lastest news on how your code is doing right in your inbox</h3>
     </div>
@@ -106,15 +105,16 @@
           <h2>Newsletter</h2>
           <h3>Select the newsletters you would like to receive</h3>
 
-          <label>Age:</label><br>
-          <input type="checkbox" id="html_news" value="html_news" name="user_html_news">
-          <label for="html_news">HTML News</label><br>
+          <div class="newsletter">
+            <input type="checkbox" id="html_news" value="html_news" name="user_html_news">
+            <label for="html_news">HTML News</label><br>
 
-          <input type="checkbox" id="css_news" value="css_news" name="user_css_news">
-          <label for="css_news">CSS News</label><br>
+            <input type="checkbox" id="css_news" value="css_news" name="user_css_news">
+            <label for="css_news">CSS News</label><br>
 
-          <input type="checkbox" id="js_news" value="js_news" name="user_js_news">
-          <label for"js_news">Javascript News</label>
+            <input type="checkbox" id="js_news" value="js_news" name="user_js_news">
+            <label for"js_news">Javascript News</label>
+
 
           <h3>Newsletter format</h3>
 
@@ -123,13 +123,16 @@
 
           <input type="radio" id="plain_format" value="plain_format" name="user_format">
           <label for="plain_format">Plain text</label>
+        </div>
         </fieldset>
         <fieldset>
           <label for="topics">Other topics you'd like to hear about:</label>
           <textarea id="topics" name="user_topics"></textarea>
         </fieldset>
 
-        <button type="submit">Sign Up</button>
+        
+          <button class="btn default" type="submit">Sign Up</button>
+
     </div>
     <footer>Copyright The Code Review</footer>
   </body>

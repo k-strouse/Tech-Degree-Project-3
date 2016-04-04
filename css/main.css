@@ -1,0 +1,82 @@
+/* General ------------- */
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Source+Sans+Pro', sans-serif;
+	color: #384047;
+	padding: 0px 0 60px;
+}
+
+h3 {
+  font-weight: 400;
+}
+
+fieldset {
+  border: none;
+}
+/* Header------------- */
+
+.wrapper {
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+/* Form Fields ------------- */
+
+input,
+textarea {
+  font-size: 1em;
+  color: black;
+  font-weight: 300;
+  width: 100%;
+  border: none;
+  height: auto;
+  padding: 15px;
+  outline: 0;
+  margin-bottom: 1.2em;
+  border-radius: .3em;
+  border-bottom: 3px solid rgba(0,0,0, 0.05);
+  background-color: #e8eeef;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+.newsletter label,
+.newsletter input{
+  display: inline-block;
+}
+
+
+
+/* Button ------------- */
+
+.btn {
+  cursor: pointer;
+  font-size: .875em;
+  font-weight: 400;
+  color: #fff;
+  padding: 20px;
+  padding-right: 20px;
+  text-transform: uppercase;
+  border-radius: .3em;
+  width: 90%;
+  margin:0 auto;
+  display: block;
+  margin-top: 20px;
+}
+
+
+.btn:hover {
+  opacity: .75;
+}
+
+.default {
+  background-color: #52bab3;
+}
