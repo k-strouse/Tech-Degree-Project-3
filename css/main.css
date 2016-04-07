@@ -9,8 +9,10 @@ body {
 	padding: 0px 0 60px;
 }
 
-h2 {
+h2,
+legend {
   font-size: 1.75em;
+	margin-left: 0;
 }
 
 h3 {
@@ -53,6 +55,10 @@ h1 {
   line-height: 100px;
 }
 
+.fieldset-1 {
+	margin-top: 10px;
+}
+
 
 /* Form Fields ------------- */
 
@@ -72,6 +78,12 @@ select {
   border-bottom: 3px solid rgba(0,0,0, 0.05);
   background-color: #e8eeef;
   box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+}
+
+
+input:focus,
+textarea:focus {
+	background: #808080;
 }
 
 select {

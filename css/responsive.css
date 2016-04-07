@@ -1,0 +1,46 @@
+@media (min-width: 1023px) {
+
+  .wrapper-2 {
+    width: 70%;
+  }
+
+  .fieldset-1 label,
+  .fieldset-1 input {
+    display: inline-block;
+  }
+
+  .fieldset-1 input,
+  .fieldset-1 select {
+    float: right;
+  }
+
+  .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .fieldset-1 label {
+    margin-top: 20.09375px;
+    margin-bottom: 0;
+  }
+
+
+
+  input,
+  select {
+    width: 70%;
+  }
+
+  #zip-code {
+    width: auto;
+    display: inline-block;
+  }
+
+  #name input{
+    text-align: right;
+  }
+
+
+
+}
