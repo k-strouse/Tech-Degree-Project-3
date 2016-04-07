@@ -9,6 +9,10 @@ body {
 	padding: 0px 0 60px;
 }
 
+h2 {
+  font-size: 1.75em;
+}
+
 h3 {
   font-weight: 400;
 }
@@ -16,18 +20,45 @@ h3 {
 fieldset {
   border: none;
 }
+
+.wrapper-2 {
+	width: 100%;
+	display: block;
+	margin: 0 auto;
+}
 /* Header------------- */
 
-.wrapper {
+.wrapper-1 {
   margin: 0 auto;
   text-align: center;
+}
+
+.top {
+  width: 97%;
+  border-bottom: 6px solid #3d3e3d;
+}
+
+.border_2 {
+	width: 97%;
+	border-bottom: 2px solid #3d3e3d;
+	margin: 0 auto;
+	margin-top: 5px;
+}
+
+h1 {
+  background: #3d3e3d;
+  color: #fff;
+  margin: 0;
+  height: 100px;
+  line-height: 100px;
 }
 
 
 /* Form Fields ------------- */
 
 input,
-textarea {
+textarea,
+select {
   font-size: 1em;
   color: black;
   font-weight: 300;
@@ -43,16 +74,39 @@ textarea {
   box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
 }
 
+select {
+	height: 48px;
+}
+
+#zip-code {
+	width: 35%;
+	display: block;
+}
+
 label {
   display: block;
   margin-bottom: 0.5em;
 }
 
-.newsletter label,
-.newsletter input{
-  display: inline-block;
+.btm-border {
+	width: 100%;
+	border-bottom: 3px solid #3d3e3d;
+	margin: 0 auto;
+	margin-top: 15px;
 }
 
+/* Newsletter ------------- */
+
+input[type="radio"],
+input[type="checkbox"] {
+	vertical-align: top;
+}
+
+label.light {
+  font-weight: 400;
+  display: inline;
+	cursor: pointer;
+}
 
 
 /* Button ------------- */
@@ -66,7 +120,7 @@ label {
   padding-right: 20px;
   text-transform: uppercase;
   border-radius: .3em;
-  width: 90%;
+  width: 100%;
   margin:0 auto;
   display: block;
   margin-top: 20px;
@@ -79,4 +133,13 @@ label {
 
 .default {
   background-color: #52bab3;
+}
+
+/* Footer ------------- */
+
+footer {
+	text-align: center;
+	font-style: italic;
+	color: #bfc3c3;
+	margin-top: 20px;
 }
